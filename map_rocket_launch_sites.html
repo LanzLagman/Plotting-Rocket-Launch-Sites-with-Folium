@@ -1,0 +1,3694 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_70346b5493e24623a6b6f16bd41f6cbb {
+                position : relative;
+                width : 950.0px;
+                height: 550.0px;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_70346b5493e24623a6b6f16bd41f6cbb" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_70346b5493e24623a6b6f16bd41f6cbb = L.map(
+                                  'map_70346b5493e24623a6b6f16bd41f6cbb',
+                                  {center: [0,0],
+                                  zoom: 1.5,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_4a257305372d4732b2d06e4b7e49cdcb = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+        
+    
+            var circle_marker_63358cf9c0c44d199219c1c0a6a3dfb9 = L.circleMarker(
+                [31.09951,-2.83581],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_0ba8263ea61149d189f22b8bd86faf49 = L.popup({maxWidth: '300'});
+
+            
+                var html_7b98c98e56044f24af23c6ee5365712c = $('<div id="html_7b98c98e56044f24af23c6ee5365712c" style="width: 100.0%; height: 100.0%;">Hammaguira French Special Weapons Test Centre   Coordinates: 31°05′58″N 2°50′09″W</div>')[0];
+                popup_0ba8263ea61149d189f22b8bd86faf49.setContent(html_7b98c98e56044f24af23c6ee5365712c);
+            
+
+            circle_marker_63358cf9c0c44d199219c1c0a6a3dfb9.bindPopup(popup_0ba8263ea61149d189f22b8bd86faf49);
+
+            
+        
+    
+            var circle_marker_44c765b23d6e4a2199bf38b32f7b3d5a = L.circleMarker(
+                [26.71895,0.27691],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_7e2f9d7355f44b8d8800e16f06b95a7d = L.popup({maxWidth: '300'});
+
+            
+                var html_6490aea7cd97408392f728da6468626a = $('<div id="html_6490aea7cd97408392f728da6468626a" style="width: 100.0%; height: 100.0%;">Reggane   Coordinates: 26°43′08″N 0°16′37″E</div>')[0];
+                popup_7e2f9d7355f44b8d8800e16f06b95a7d.setContent(html_6490aea7cd97408392f728da6468626a);
+            
+
+            circle_marker_44c765b23d6e4a2199bf38b32f7b3d5a.bindPopup(popup_7e2f9d7355f44b8d8800e16f06b95a7d);
+
+            
+        
+    
+            var circle_marker_6238499f2d6844f98656dbcf07309105 = L.circleMarker(
+                [-7.92587,28.52766],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_ab59195a675d425d96560ddbcffa42d3 = L.popup({maxWidth: '300'});
+
+            
+                var html_3dee5085404f476cb9e5126803c53dac = $('<div id="html_3dee5085404f476cb9e5126803c53dac" style="width: 100.0%; height: 100.0%;">Shaba North   Coordinates: 7°55′33″S 28°31′40″E</div>')[0];
+                popup_ab59195a675d425d96560ddbcffa42d3.setContent(html_3dee5085404f476cb9e5126803c53dac);
+            
+
+            circle_marker_6238499f2d6844f98656dbcf07309105.bindPopup(popup_ab59195a675d425d96560ddbcffa42d3);
+
+            
+        
+    
+            var circle_marker_fc4eb025f5494509aedd7d7b064a38ed = L.circleMarker(
+                [30.12575,30.605139],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_b0c2b998143444cfb9cd23da63247a32 = L.popup({maxWidth: '300'});
+
+            
+                var html_ae37bc6eac344d9faae29f724d5d5ee2 = $('<div id="html_ae37bc6eac344d9faae29f724d5d5ee2" style="width: 100.0%; height: 100.0%;">Jabal Hamzah ballistic missile test and launch facility   Coordinates: 30°07′32.7″N 30°36′18.5″E</div>')[0];
+                popup_b0c2b998143444cfb9cd23da63247a32.setContent(html_ae37bc6eac344d9faae29f724d5d5ee2);
+            
+
+            circle_marker_fc4eb025f5494509aedd7d7b064a38ed.bindPopup(popup_b0c2b998143444cfb9cd23da63247a32);
+
+            
+        
+    
+            var circle_marker_f3cdef2b98de4db9a89aa11fd182d67c = L.circleMarker(
+                [-2.9408,40.2134],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_fd2b9d09f1074b90a428ab3fe0572c8e = L.popup({maxWidth: '300'});
+
+            
+                var html_e0fdb547b2dd4a74ab09787252e09998 = $('<div id="html_e0fdb547b2dd4a74ab09787252e09998" style="width: 100.0%; height: 100.0%;">Broglio Space Centre (San Marco)   Coordinates: 2°56′27″S 40°12′48″E</div>')[0];
+                popup_fd2b9d09f1074b90a428ab3fe0572c8e.setContent(html_e0fdb547b2dd4a74ab09787252e09998);
+            
+
+            circle_marker_f3cdef2b98de4db9a89aa11fd182d67c.bindPopup(popup_fd2b9d09f1074b90a428ab3fe0572c8e);
+
+            
+        
+    
+            var circle_marker_482fd181054c4941a302437cbccfd2a3 = L.circleMarker(
+                [26.99392,14.46425],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_a744a01932f247f6bbf7845eeba35f54 = L.popup({maxWidth: '300'});
+
+            
+                var html_7706e2aff200445b85d33f542de56226 = $('<div id="html_7706e2aff200445b85d33f542de56226" style="width: 100.0%; height: 100.0%;">Sabha   Coordinates: 26°59′38″N 14°27′51″E</div>')[0];
+                popup_a744a01932f247f6bbf7845eeba35f54.setContent(html_7706e2aff200445b85d33f542de56226);
+            
+
+            circle_marker_482fd181054c4941a302437cbccfd2a3.bindPopup(popup_a744a01932f247f6bbf7845eeba35f54);
+
+            
+        
+    
+            var circle_marker_89e1523063024744ae647f192034f8c8 = L.circleMarker(
+                [20.92856,-17.03153],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_5cb6547ba92c4deebdea823d6272337e = L.popup({maxWidth: '300'});
+
+            
+                var html_e43c5ea13f3241d4a5275343225f1257 = $('<div id="html_e43c5ea13f3241d4a5275343225f1257" style="width: 100.0%; height: 100.0%;">Nouadhibou   Coordinates: 20°55′43″N 17°01′54″W</div>')[0];
+                popup_5cb6547ba92c4deebdea823d6272337e.setContent(html_e43c5ea13f3241d4a5275343225f1257);
+            
+
+            circle_marker_89e1523063024744ae647f192034f8c8.bindPopup(popup_5cb6547ba92c4deebdea823d6272337e);
+
+            
+        
+    
+            var circle_marker_3f038ec8fa4c4c5581fcce93d548bbdc = L.circleMarker(
+                [-34.60265,20.30248],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_aefd06bcf4f7421ba2d01a3e658a9c0f = L.popup({maxWidth: '300'});
+
+            
+                var html_ef333a8126c84298b08fffb72ff370c4 = $('<div id="html_ef333a8126c84298b08fffb72ff370c4" style="width: 100.0%; height: 100.0%;">Overberg South African Test Centre   Coordinates: 34°36′10″S 20°18′09″E</div>')[0];
+                popup_aefd06bcf4f7421ba2d01a3e658a9c0f.setContent(html_ef333a8126c84298b08fffb72ff370c4);
+            
+
+            circle_marker_3f038ec8fa4c4c5581fcce93d548bbdc.bindPopup(popup_aefd06bcf4f7421ba2d01a3e658a9c0f);
+
+            
+        
+    
+            var circle_marker_c6ed2ed3c5ef4f6da51c2caddcc13810 = L.circleMarker(
+                [30.93743,119.20575],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_9f534663d5ab47c6847296cd0db103da = L.popup({maxWidth: '300'});
+
+            
+                var html_5e1f3d6605f0493b9896ae097ab0644d = $('<div id="html_5e1f3d6605f0493b9896ae097ab0644d" style="width: 100.0%; height: 100.0%;">Base 603, Shijiedu, Guangde   Coordinates: 30°56′15″N 119°12′21″E</div>')[0];
+                popup_9f534663d5ab47c6847296cd0db103da.setContent(html_5e1f3d6605f0493b9896ae097ab0644d);
+            
+
+            circle_marker_c6ed2ed3c5ef4f6da51c2caddcc13810.bindPopup(popup_9f534663d5ab47c6847296cd0db103da);
+
+            
+        
+    
+            var circle_marker_42cbb188ad75476b8df2771553af4095 = L.circleMarker(
+                [41.11803,100.4633],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_a50dd5d91ba44141b4e0bb794c284800 = L.popup({maxWidth: '300'});
+
+            
+                var html_cc42bd24ea5e4f1c863d75c1d01b2418 = $('<div id="html_cc42bd24ea5e4f1c863d75c1d01b2418" style="width: 100.0%; height: 100.0%;">Jiuquan Satellite Launch Center   Coordinates: 41°07′05″N 100°27′48″E</div>')[0];
+                popup_a50dd5d91ba44141b4e0bb794c284800.setContent(html_cc42bd24ea5e4f1c863d75c1d01b2418);
+            
+
+            circle_marker_42cbb188ad75476b8df2771553af4095.bindPopup(popup_a50dd5d91ba44141b4e0bb794c284800);
+
+            
+        
+    
+            var circle_marker_bcebe76109f047c0981d36faae62467c = L.circleMarker(
+                [39.14321,111.96741],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_a62ff1f64edb491ebbc469d9af7da729 = L.popup({maxWidth: '300'});
+
+            
+                var html_b552fb8e0108433685d40c317e206b1f = $('<div id="html_b552fb8e0108433685d40c317e206b1f" style="width: 100.0%; height: 100.0%;">Taiyuan Satellite Launch Center   Coordinates: 39°08′36″N 111°58′03″E</div>')[0];
+                popup_a62ff1f64edb491ebbc469d9af7da729.setContent(html_b552fb8e0108433685d40c317e206b1f);
+            
+
+            circle_marker_bcebe76109f047c0981d36faae62467c.bindPopup(popup_a62ff1f64edb491ebbc469d9af7da729);
+
+            
+        
+    
+            var circle_marker_b96528ee0a7a4ec7a183387b9dc180d6 = L.circleMarker(
+                [28.24646,102.02814],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_8873be4d79844a548485da1154e5c5f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_a9003d80ab0a455a9ccab8db6ece7042 = $('<div id="html_a9003d80ab0a455a9ccab8db6ece7042" style="width: 100.0%; height: 100.0%;">Xichang Satellite Launch Center   Coordinates: 28°14′47″N 102°01′41″E</div>')[0];
+                popup_8873be4d79844a548485da1154e5c5f5.setContent(html_a9003d80ab0a455a9ccab8db6ece7042);
+            
+
+            circle_marker_b96528ee0a7a4ec7a183387b9dc180d6.bindPopup(popup_8873be4d79844a548485da1154e5c5f5);
+
+            
+        
+    
+            var circle_marker_46ac4d3f8b8449c088e64be7954d2aa9 = L.circleMarker(
+                [19.6144917,110.9511333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_220a2b531dd647e59ebd7aeec5cb07f8 = L.popup({maxWidth: '300'});
+
+            
+                var html_200f5829b142459092bb233d72245bd4 = $('<div id="html_200f5829b142459092bb233d72245bd4" style="width: 100.0%; height: 100.0%;">Wenchang Satellite Launch Center   Coordinates: 19°36′52.17″N 110°57′4.08″E</div>')[0];
+                popup_220a2b531dd647e59ebd7aeec5cb07f8.setContent(html_200f5829b142459092bb233d72245bd4);
+            
+
+            circle_marker_46ac4d3f8b8449c088e64be7954d2aa9.bindPopup(popup_220a2b531dd647e59ebd7aeec5cb07f8);
+
+            
+        
+    
+            var circle_marker_c8b4e32729b145bb897b7ef8ad9c1166 = L.circleMarker(
+                [42.0,126.5],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_6f93e5f00c3f41afafd7c5f250e7f4a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_06baf2d41dce48938ccdc461a2159054 = $('<div id="html_06baf2d41dce48938ccdc461a2159054" style="width: 100.0%; height: 100.0%;">Jingyu   Coordinates: 42°00′N 126°30′E</div>')[0];
+                popup_6f93e5f00c3f41afafd7c5f250e7f4a7.setContent(html_06baf2d41dce48938ccdc461a2159054);
+            
+
+            circle_marker_c8b4e32729b145bb897b7ef8ad9c1166.bindPopup(popup_6f93e5f00c3f41afafd7c5f250e7f4a7);
+
+            
+        
+    
+            var circle_marker_b051e17fec7840b3b51b003b93d1cdf3 = L.circleMarker(
+                [8.5314,76.869],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_d4e74ba18ea64d7389eff9ae17c6a876 = L.popup({maxWidth: '300'});
+
+            
+                var html_94ddf3eb7efd426cb514a9311d3bc8ca = $('<div id="html_94ddf3eb7efd426cb514a9311d3bc8ca" style="width: 100.0%; height: 100.0%;">Vikram Sarabhai Space Centre, Thiruvananthapuram (thumba), Kerala   Coordinates: 8°31′53″N 76°52′08″E</div>')[0];
+                popup_d4e74ba18ea64d7389eff9ae17c6a876.setContent(html_94ddf3eb7efd426cb514a9311d3bc8ca);
+            
+
+            circle_marker_b051e17fec7840b3b51b003b93d1cdf3.bindPopup(popup_d4e74ba18ea64d7389eff9ae17c6a876);
+
+            
+        
+    
+            var circle_marker_e334e6923ab1413a9f4cb2715b48e6a3 = L.circleMarker(
+                [13.7374,80.2351],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_4095f3fd4aaa4ee99f9b0b71bcb62ff8 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea31bb58361b4679bb70340b2542be30 = $('<div id="html_ea31bb58361b4679bb70340b2542be30" style="width: 100.0%; height: 100.0%;">Satish Dhawan Space Centre (Sriharikota), Andhra Pradesh   Coordinates: 13°44′15″N 80°14′06″E</div>')[0];
+                popup_4095f3fd4aaa4ee99f9b0b71bcb62ff8.setContent(html_ea31bb58361b4679bb70340b2542be30);
+            
+
+            circle_marker_e334e6923ab1413a9f4cb2715b48e6a3.bindPopup(popup_4095f3fd4aaa4ee99f9b0b71bcb62ff8);
+
+            
+        
+    
+            var circle_marker_f600d8b7e0ec41649975a9a38ff606c5 = L.circleMarker(
+                [20.75804,87.085533],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_2b6b2d5d50d846cba03a43c02156fcd2 = L.popup({maxWidth: '300'});
+
+            
+                var html_434c2685f3f14ec2b7c0eb930a8cefc6 = $('<div id="html_434c2685f3f14ec2b7c0eb930a8cefc6" style="width: 100.0%; height: 100.0%;">Abdul Kalam Island   Coordinates: 20°45′29″N 87°05′08″E</div>')[0];
+                popup_2b6b2d5d50d846cba03a43c02156fcd2.setContent(html_434c2685f3f14ec2b7c0eb930a8cefc6);
+            
+
+            circle_marker_f600d8b7e0ec41649975a9a38ff606c5.bindPopup(popup_2b6b2d5d50d846cba03a43c02156fcd2);
+
+            
+        
+    
+            var circle_marker_3a8866902e5648a6ab4eedec78f53b8b = L.circleMarker(
+                [-7.646643,107.689018],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_d007168ec1744802aa95dd9b3040f474 = L.popup({maxWidth: '300'});
+
+            
+                var html_21104810a30d44e6a8cd8f1f2841a110 = $('<div id="html_21104810a30d44e6a8cd8f1f2841a110" style="width: 100.0%; height: 100.0%;">Stasiun Peluncuran Roket, Pameungpeuk, Garut   Coordinates: 7°38′48″S 107°41′20″E</div>')[0];
+                popup_d007168ec1744802aa95dd9b3040f474.setContent(html_21104810a30d44e6a8cd8f1f2841a110);
+            
+
+            circle_marker_3a8866902e5648a6ab4eedec78f53b8b.bindPopup(popup_d007168ec1744802aa95dd9b3040f474);
+
+            
+        
+    
+            var circle_marker_2fd075f85c7a4edeb431ed61ced7fb30 = L.circleMarker(
+                [34.65,50.9],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_7aa14d1937dd4959ac4d4530d543140b = L.popup({maxWidth: '300'});
+
+            
+                var html_c5e7863b35a44c32b9c1b7e0c6712c35 = $('<div id="html_c5e7863b35a44c32b9c1b7e0c6712c35" style="width: 100.0%; height: 100.0%;">Qom Space Center   Coordinates: 34°39′00″N 50°54′00″E</div>')[0];
+                popup_7aa14d1937dd4959ac4d4530d543140b.setContent(html_c5e7863b35a44c32b9c1b7e0c6712c35);
+            
+
+            circle_marker_2fd075f85c7a4edeb431ed61ced7fb30.bindPopup(popup_7aa14d1937dd4959ac4d4530d543140b);
+
+            
+        
+    
+            var circle_marker_ce1391a8426b44819ca70d061fda6786 = L.circleMarker(
+                [36.42,55.02],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_d77bc163e18148ca9ce79b3988a360fb = L.popup({maxWidth: '300'});
+
+            
+                var html_6387d975ce4b4546952a67089978e489 = $('<div id="html_6387d975ce4b4546952a67089978e489" style="width: 100.0%; height: 100.0%;">Emamshahr Space Center   Coordinates: 36°25′12″N 55°01′12″E</div>')[0];
+                popup_d77bc163e18148ca9ce79b3988a360fb.setContent(html_6387d975ce4b4546952a67089978e489);
+            
+
+            circle_marker_ce1391a8426b44819ca70d061fda6786.bindPopup(popup_d77bc163e18148ca9ce79b3988a360fb);
+
+            
+        
+    
+            var circle_marker_066c23d006834cc4a1df23311ada72ff = L.circleMarker(
+                [35.234631,53.920941],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_54b231a8c4bf4e4480de58d039cd494c = L.popup({maxWidth: '300'});
+
+            
+                var html_83a9096aa2de47428549bda816d60118 = $('<div id="html_83a9096aa2de47428549bda816d60118" style="width: 100.0%; height: 100.0%;">Semnan spaceport   Coordinates: 35°14′05″N 53°55′15″E</div>')[0];
+                popup_54b231a8c4bf4e4480de58d039cd494c.setContent(html_83a9096aa2de47428549bda816d60118);
+            
+
+            circle_marker_066c23d006834cc4a1df23311ada72ff.bindPopup(popup_54b231a8c4bf4e4480de58d039cd494c);
+
+            
+        
+    
+            var circle_marker_54978501b1d24b9788aac1367c543b1b = L.circleMarker(
+                [32.7822,44.29962],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_78e0464c94454252a5ce7d01b72fac7f = L.popup({maxWidth: '300'});
+
+            
+                var html_2ef67e6de60e4bc39d6bbc3adc940d8e = $('<div id="html_2ef67e6de60e4bc39d6bbc3adc940d8e" style="width: 100.0%; height: 100.0%;">Al-Anbar Test Center   Coordinates: 32°46′56″N 44°17′59″E</div>')[0];
+                popup_78e0464c94454252a5ce7d01b72fac7f.setContent(html_2ef67e6de60e4bc39d6bbc3adc940d8e);
+            
+
+            circle_marker_54978501b1d24b9788aac1367c543b1b.bindPopup(popup_78e0464c94454252a5ce7d01b72fac7f);
+
+            
+        
+    
+            var circle_marker_bdc5306fd6ee4861a80da208b86dce07 = L.circleMarker(
+                [31.88484,34.6802],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_48db8d13524348199e7e238e474db0c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_8a9778df9eb2472caf028fb1ebc5fd30 = $('<div id="html_8a9778df9eb2472caf028fb1ebc5fd30" style="width: 100.0%; height: 100.0%;">Palmachim Air Force Base   Coordinates: 31°53′05″N 34°40′49″E</div>')[0];
+                popup_48db8d13524348199e7e238e474db0c4.setContent(html_8a9778df9eb2472caf028fb1ebc5fd30);
+            
+
+            circle_marker_bdc5306fd6ee4861a80da208b86dce07.bindPopup(popup_48db8d13524348199e7e238e474db0c4);
+
+            
+        
+    
+            var circle_marker_cfccd722a4f84230a7ac9c86ed22e16f = L.circleMarker(
+                [39.57148,140.05785],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_4495ce4791284ad4b2eee7c2c8701177 = L.popup({maxWidth: '300'});
+
+            
+                var html_abae2ce9fa904a26bfab0ed988605e55 = $('<div id="html_abae2ce9fa904a26bfab0ed988605e55" style="width: 100.0%; height: 100.0%;">Akita Rocket Range   Coordinates: 39°34′17″N 140°03′28″E</div>')[0];
+                popup_4495ce4791284ad4b2eee7c2c8701177.setContent(html_abae2ce9fa904a26bfab0ed988605e55);
+            
+
+            circle_marker_cfccd722a4f84230a7ac9c86ed22e16f.bindPopup(popup_4495ce4791284ad4b2eee7c2c8701177);
+
+            
+        
+    
+            var circle_marker_1e8289404ccc442d91ea1ad06071e77e = L.circleMarker(
+                [31.25186,131.07914],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_9e94a2e3c0b54217baf7266722fca4bb = L.popup({maxWidth: '300'});
+
+            
+                var html_ce3e7c5a2fec4bb18d2b9f2152af8a8d = $('<div id="html_ce3e7c5a2fec4bb18d2b9f2152af8a8d" style="width: 100.0%; height: 100.0%;">Uchinoura Space Center   Coordinates: 31°15′07″N 131°04′45″E</div>')[0];
+                popup_9e94a2e3c0b54217baf7266722fca4bb.setContent(html_ce3e7c5a2fec4bb18d2b9f2152af8a8d);
+            
+
+            circle_marker_1e8289404ccc442d91ea1ad06071e77e.bindPopup(popup_9e94a2e3c0b54217baf7266722fca4bb);
+
+            
+        
+    
+            var circle_marker_cb451dfb49b44cde9f43a49e24c180f8 = L.circleMarker(
+                [30.39096,130.96813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_f278adb6d88e490da6246bb41d8c2120 = L.popup({maxWidth: '300'});
+
+            
+                var html_934cbf5fac654a33aad0b90d39cf3194 = $('<div id="html_934cbf5fac654a33aad0b90d39cf3194" style="width: 100.0%; height: 100.0%;">Tanegashima Space Center, Tanegashima Island   Coordinates: 30°23′27″N 130°58′05″E</div>')[0];
+                popup_f278adb6d88e490da6246bb41d8c2120.setContent(html_934cbf5fac654a33aad0b90d39cf3194);
+            
+
+            circle_marker_cb451dfb49b44cde9f43a49e24c180f8.bindPopup(popup_f278adb6d88e490da6246bb41d8c2120);
+
+            
+        
+    
+            var circle_marker_cbbb843a02624770832c1e00d9de1d93 = L.circleMarker(
+                [39.03,141.83],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_a133b056f3ee40feacb98ab111587fdb = L.popup({maxWidth: '300'});
+
+            
+                var html_748cf50dbf1648189fb31ca0bfeb923b = $('<div id="html_748cf50dbf1648189fb31ca0bfeb923b" style="width: 100.0%; height: 100.0%;">Ryori   Coordinates: 39°01′48″N 141°49′48″E</div>')[0];
+                popup_a133b056f3ee40feacb98ab111587fdb.setContent(html_748cf50dbf1648189fb31ca0bfeb923b);
+            
+
+            circle_marker_cbbb843a02624770832c1e00d9de1d93.bindPopup(popup_a133b056f3ee40feacb98ab111587fdb);
+
+            
+        
+    
+            var circle_marker_45b1bb6965414625b744901af38de550 = L.circleMarker(
+                [34.33766,139.26575],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_f16a1a1c4c874035ba3ea8740b2a0ed1 = L.popup({maxWidth: '300'});
+
+            
+                var html_9c2f234e99fb46899308c6a3ae7c6cbf = $('<div id="html_9c2f234e99fb46899308c6a3ae7c6cbf" style="width: 100.0%; height: 100.0%;">Niijima (ja)   Coordinates: 34°20′16″N 139°15′57″E</div>')[0];
+                popup_f16a1a1c4c874035ba3ea8740b2a0ed1.setContent(html_9c2f234e99fb46899308c6a3ae7c6cbf);
+            
+
+            circle_marker_45b1bb6965414625b744901af38de550.bindPopup(popup_f16a1a1c4c874035ba3ea8740b2a0ed1);
+
+            
+        
+    
+            var circle_marker_605d28e1441b482fa81bf44ca93642d1 = L.circleMarker(
+                [40.70342,141.36938],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_7b8d958964de4f68954f9d7ad1a8add5 = L.popup({maxWidth: '300'});
+
+            
+                var html_6cabc32a961148f1852d7d5f9b827764 = $('<div id="html_6cabc32a961148f1852d7d5f9b827764" style="width: 100.0%; height: 100.0%;">Obachi   Coordinates: 40°42′12″N 141°22′10″E</div>')[0];
+                popup_7b8d958964de4f68954f9d7ad1a8add5.setContent(html_6cabc32a961148f1852d7d5f9b827764);
+            
+
+            circle_marker_605d28e1441b482fa81bf44ca93642d1.bindPopup(popup_7b8d958964de4f68954f9d7ad1a8add5);
+
+            
+        
+    
+            var circle_marker_ac23f68e8f3f49d3997b1288906ce360 = L.circleMarker(
+                [45.95515,63.35028],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_e0f4555714dd4a45a17dfad2a3b642b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_09720732ff534dbebaa11b2e3edd6684 = $('<div id="html_09720732ff534dbebaa11b2e3edd6684" style="width: 100.0%; height: 100.0%;">Baikonur Cosmodrome, Tyuratam   Coordinates: 45°57′19″N 63°21′01″E</div>')[0];
+                popup_e0f4555714dd4a45a17dfad2a3b642b1.setContent(html_09720732ff534dbebaa11b2e3edd6684);
+            
+
+            circle_marker_ac23f68e8f3f49d3997b1288906ce360.bindPopup(popup_e0f4555714dd4a45a17dfad2a3b642b1);
+
+            
+        
+    
+            var circle_marker_33019c3feef442b6af98f87463b16101 = L.circleMarker(
+                [46.38,72.87],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_119490e8c6d9485cb1225e1fca3ee46c = L.popup({maxWidth: '300'});
+
+            
+                var html_a1049c3e6eab411ba733bfcaacb311a5 = $('<div id="html_a1049c3e6eab411ba733bfcaacb311a5" style="width: 100.0%; height: 100.0%;">Sary Shagan   Coordinates: 46°22′48″N 72°52′12″E</div>')[0];
+                popup_119490e8c6d9485cb1225e1fca3ee46c.setContent(html_a1049c3e6eab411ba733bfcaacb311a5);
+            
+
+            circle_marker_33019c3feef442b6af98f87463b16101.bindPopup(popup_119490e8c6d9485cb1225e1fca3ee46c);
+
+            
+        
+    
+            var circle_marker_aa0f12b8d5cc4bb88d74e157614d679e = L.circleMarker(
+                [40.85572,129.66587],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_e08bb52d3e3144deb710c9aa8f400e89 = L.popup({maxWidth: '300'});
+
+            
+                var html_0404988f97cf4acc9a7feff4941eeb16 = $('<div id="html_0404988f97cf4acc9a7feff4941eeb16" style="width: 100.0%; height: 100.0%;">Musudan-ri   Coordinates: 40°51′21″N 129°39′57″E</div>')[0];
+                popup_e08bb52d3e3144deb710c9aa8f400e89.setContent(html_0404988f97cf4acc9a7feff4941eeb16);
+            
+
+            circle_marker_aa0f12b8d5cc4bb88d74e157614d679e.bindPopup(popup_e08bb52d3e3144deb710c9aa8f400e89);
+
+            
+        
+    
+            var circle_marker_d24185e790684e97af16997fa5e0a75d = L.circleMarker(
+                [39.66,124.705],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_39c9ffae5559476396815e1fa711b9d8 = L.popup({maxWidth: '300'});
+
+            
+                var html_0b957f3019cb48309a8a5fe452825093 = $('<div id="html_0b957f3019cb48309a8a5fe452825093" style="width: 100.0%; height: 100.0%;">Sohae   Coordinates: 39°39′36″N 124°42′18″E</div>')[0];
+                popup_39c9ffae5559476396815e1fa711b9d8.setContent(html_0b957f3019cb48309a8a5fe452825093);
+            
+
+            circle_marker_d24185e790684e97af16997fa5e0a75d.bindPopup(popup_39c9ffae5559476396815e1fa711b9d8);
+
+            
+        
+    
+            var circle_marker_b357506bb4b645a8b3d8a9e31e3ccd90 = L.circleMarker(
+                [36.70211,126.47158],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_bb50a96b43cc4167b8b9b6bd4bf79c6d = L.popup({maxWidth: '300'});
+
+            
+                var html_e29550a253964d64903704c8702813d6 = $('<div id="html_e29550a253964d64903704c8702813d6" style="width: 100.0%; height: 100.0%;">Anhueng   Coordinates: 36°42′08″N 126°28′18″E</div>')[0];
+                popup_bb50a96b43cc4167b8b9b6bd4bf79c6d.setContent(html_e29550a253964d64903704c8702813d6);
+            
+
+            circle_marker_b357506bb4b645a8b3d8a9e31e3ccd90.bindPopup(popup_bb50a96b43cc4167b8b9b6bd4bf79c6d);
+
+            
+        
+    
+            var circle_marker_a76f794b44a841eca18e9bca5f61a619 = L.circleMarker(
+                [34.42585,127.52793],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_666356675d3f4481b52a6e927f4152d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_23a3d031124349e29174940d8b686693 = $('<div id="html_23a3d031124349e29174940d8b686693" style="width: 100.0%; height: 100.0%;">Naro Space Center, Gohueng   Coordinates: 34°25′33″N 127°31′41″E</div>')[0];
+                popup_666356675d3f4481b52a6e927f4152d9.setContent(html_23a3d031124349e29174940d8b686693);
+            
+
+            circle_marker_a76f794b44a841eca18e9bca5f61a619.bindPopup(popup_666356675d3f4481b52a6e927f4152d9);
+
+            
+        
+    
+            var circle_marker_dec54a72f15242279b5b275c63dfe7c5 = L.circleMarker(
+                [-0.69328,73.15672],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_1e523b8cccde4811bf59c97b06fce165 = L.popup({maxWidth: '300'});
+
+            
+                var html_4837f39981d5416e8da42e68732041d3 = $('<div id="html_4837f39981d5416e8da42e68732041d3" style="width: 100.0%; height: 100.0%;">Gan Island   Coordinates: 0°41′36″S 73°09′24″E</div>')[0];
+                popup_1e523b8cccde4811bf59c97b06fce165.setContent(html_4837f39981d5416e8da42e68732041d3);
+            
+
+            circle_marker_dec54a72f15242279b5b275c63dfe7c5.bindPopup(popup_1e523b8cccde4811bf59c97b06fce165);
+
+            
+        
+    
+            var circle_marker_4b4836d7a2c544cb861b52fb13887db2 = L.circleMarker(
+                [25.19242,66.74881],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_c76298d0966f4ce99e9c3539df668fb6 = L.popup({maxWidth: '300'});
+
+            
+                var html_e63e573d506241ffa21d5ba28ba6bbe4 = $('<div id="html_e63e573d506241ffa21d5ba28ba6bbe4" style="width: 100.0%; height: 100.0%;">Sonmiani Satellite Launch Center, Las Bela, Balochistan   Coordinates: 25°11′33″N 66°44′56″E</div>')[0];
+                popup_c76298d0966f4ce99e9c3539df668fb6.setContent(html_e63e573d506241ffa21d5ba28ba6bbe4);
+            
+
+            circle_marker_4b4836d7a2c544cb861b52fb13887db2.bindPopup(popup_c76298d0966f4ce99e9c3539df668fb6);
+
+            
+        
+    
+            var circle_marker_f5ed78e79a554ae392b917f5117c1693 = L.circleMarker(
+                [33.3961,73.29608],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_df55a742595c4cf6a7c48683a23662e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_a2c91796289646a68580723559771ccf = $('<div id="html_a2c91796289646a68580723559771ccf" style="width: 100.0%; height: 100.0%;">Tilla Satellite Launch Center, Jhelum District, Punjab   Coordinates: 33°23′46″N 73°17′46″E</div>')[0];
+                popup_df55a742595c4cf6a7c48683a23662e8.setContent(html_a2c91796289646a68580723559771ccf);
+            
+
+            circle_marker_f5ed78e79a554ae392b917f5117c1693.bindPopup(popup_df55a742595c4cf6a7c48683a23662e8);
+
+            
+        
+    
+            var circle_marker_388cd29ceeaa4680a7f0a93f89337ebf = L.circleMarker(
+                [80.45,58.05],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_e95c82c228244b88b45f7c0d7740e698 = L.popup({maxWidth: '300'});
+
+            
+                var html_4c88391d6e0a4f8b976c9f425030a0fa = $('<div id="html_4c88391d6e0a4f8b976c9f425030a0fa" style="width: 100.0%; height: 100.0%;">Kheysa   Coordinates: 80°27′00″N 58°03′00″E</div>')[0];
+                popup_e95c82c228244b88b45f7c0d7740e698.setContent(html_4c88391d6e0a4f8b976c9f425030a0fa);
+            
+
+            circle_marker_388cd29ceeaa4680a7f0a93f89337ebf.bindPopup(popup_e95c82c228244b88b45f7c0d7740e698);
+
+            
+        
+    
+            var circle_marker_e5bd401432be42caac7426eebb9c752a = L.circleMarker(
+                [51.83441,128.2757],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_ed684212cfbc42fda53994ec18c20495 = L.popup({maxWidth: '300'});
+
+            
+                var html_4339bebc3ebf41468a5449333f68b973 = $('<div id="html_4339bebc3ebf41468a5449333f68b973" style="width: 100.0%; height: 100.0%;">Svobodny Cosmodrome, Amur Oblast   Coordinates: 51°50′04″N 128°16′33″E</div>')[0];
+                popup_ed684212cfbc42fda53994ec18c20495.setContent(html_4339bebc3ebf41468a5449333f68b973);
+            
+
+            circle_marker_e5bd401432be42caac7426eebb9c752a.bindPopup(popup_ed684212cfbc42fda53994ec18c20495);
+
+            
+        
+    
+            var circle_marker_b26d1e1e660e4b7e93f33d8c8845aaa2 = L.circleMarker(
+                [48.97,140.3],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_4e98318c5d714d0b9973485a8f5ed2d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_ffcfa7053ae1446595a1a9240f1f6e8e = $('<div id="html_ffcfa7053ae1446595a1a9240f1f6e8e" style="width: 100.0%; height: 100.0%;">Sovetskaya Gavan   Coordinates: 48°58′12″N 140°18′00″E</div>')[0];
+                popup_4e98318c5d714d0b9973485a8f5ed2d5.setContent(html_ffcfa7053ae1446595a1a9240f1f6e8e);
+            
+
+            circle_marker_b26d1e1e660e4b7e93f33d8c8845aaa2.bindPopup(popup_4e98318c5d714d0b9973485a8f5ed2d5);
+
+            
+        
+    
+            var circle_marker_42a891961ec347fd9e8812569d5c3fbc = L.circleMarker(
+                [59.367,143.25],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_3c5e0243e4674f06af5a92a3759ea5d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_d95b8bb2543349249adbd339a05ac35c = $('<div id="html_d95b8bb2543349249adbd339a05ac35c" style="width: 100.0%; height: 100.0%;">Okhotsk   Coordinates: 59°22′N 143°15′E</div>')[0];
+                popup_3c5e0243e4674f06af5a92a3759ea5d5.setContent(html_d95b8bb2543349249adbd339a05ac35c);
+            
+
+            circle_marker_42a891961ec347fd9e8812569d5c3fbc.bindPopup(popup_3c5e0243e4674f06af5a92a3759ea5d5);
+
+            
+        
+    
+            var circle_marker_7e9055bbcb2d43fca42ce1d48c6be65c = L.circleMarker(
+                [51.20706,59.85003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_89368c1bf24d464d9f892e6889cf891a = L.popup({maxWidth: '300'});
+
+            
+                var html_7e4c788c0e9d47c897f63de3e316e9b7 = $('<div id="html_7e4c788c0e9d47c897f63de3e316e9b7" style="width: 100.0%; height: 100.0%;">Yasny Cosmodrome (formerly Dombarovskiy), Orenburg Oblast   Coordinates: 51°12′25″N 59°51′00″E</div>')[0];
+                popup_89368c1bf24d464d9f892e6889cf891a.setContent(html_7e4c788c0e9d47c897f63de3e316e9b7);
+            
+
+            circle_marker_7e9055bbcb2d43fca42ce1d48c6be65c.bindPopup(popup_89368c1bf24d464d9f892e6889cf891a);
+
+            
+        
+    
+            var circle_marker_f580bbd1060d4d959cfe1cba0d3150f9 = L.circleMarker(
+                [51.883,128.333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_800284766f5c4b1bbc3c58a25630707f = L.popup({maxWidth: '300'});
+
+            
+                var html_0770d69b341d4f4cbdb34ab2168965c3 = $('<div id="html_0770d69b341d4f4cbdb34ab2168965c3" style="width: 100.0%; height: 100.0%;">Vostochny Cosmodrome, Amur Oblast, Russia   Coordinates: 51°52′59″N 128°19′59″E</div>')[0];
+                popup_800284766f5c4b1bbc3c58a25630707f.setContent(html_0770d69b341d4f4cbdb34ab2168965c3);
+            
+
+            circle_marker_f580bbd1060d4d959cfe1cba0d3150f9.bindPopup(popup_800284766f5c4b1bbc3c58a25630707f);
+
+            
+        
+    
+            var circle_marker_1b8f1470d0ba4dde9928e63705e5fe3d = L.circleMarker(
+                [22.1,120.9],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "orange",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_c87e8d50c9cc495b8b720454827167fa = L.popup({maxWidth: '300'});
+
+            
+                var html_6c6d82e553674617835bc9ad36afdb03 = $('<div id="html_6c6d82e553674617835bc9ad36afdb03" style="width: 100.0%; height: 100.0%;">Haiqian   Coordinates: 22°06′N 120°54′E</div>')[0];
+                popup_c87e8d50c9cc495b8b720454827167fa.setContent(html_6c6d82e553674617835bc9ad36afdb03);
+            
+
+            circle_marker_1b8f1470d0ba4dde9928e63705e5fe3d.bindPopup(popup_c87e8d50c9cc495b8b720454827167fa);
+
+            
+        
+    
+            var circle_marker_9ec25c7872014cba85f82bdd47400420 = L.circleMarker(
+                [43.04507,6.47887],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_c4698714948540d4a39f03e7f37b3ab5 = L.popup({maxWidth: '300'});
+
+            
+                var html_338f40a0a48d4753980026d0637e60f7 = $('<div id="html_338f40a0a48d4753980026d0637e60f7" style="width: 100.0%; height: 100.0%;">Ile du Levant   Coordinates: 43°02′42″N 6°28′44″E</div>')[0];
+                popup_c4698714948540d4a39f03e7f37b3ab5.setContent(html_338f40a0a48d4753980026d0637e60f7);
+            
+
+            circle_marker_9ec25c7872014cba85f82bdd47400420.bindPopup(popup_c4698714948540d4a39f03e7f37b3ab5);
+
+            
+        
+    
+            var circle_marker_43e221c60d4b4b6c97cd473efd39c970 = L.circleMarker(
+                [52.35,13.21],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_e9bcda6a01824eaea8e841a5232404f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_7c773705cd0641f4b32b18c84b433b73 = $('<div id="html_7c773705cd0641f4b32b18c84b433b73" style="width: 100.0%; height: 100.0%;">Rocket Launch Site Berlin, Berlin-Tegel   Coordinates: 52°21′00″N 13°12′36″E</div>')[0];
+                popup_e9bcda6a01824eaea8e841a5232404f6.setContent(html_7c773705cd0641f4b32b18c84b433b73);
+            
+
+            circle_marker_43e221c60d4b4b6c97cd473efd39c970.bindPopup(popup_e9bcda6a01824eaea8e841a5232404f6);
+
+            
+        
+    
+            var circle_marker_627276c277a047f9ac1635386d1c8d12 = L.circleMarker(
+                [54.143,13.794],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_5fc76302bcc048b69110af3d78c0e50f = L.popup({maxWidth: '300'});
+
+            
+                var html_4e72f435052e4d25a7868839751740a0 = $('<div id="html_4e72f435052e4d25a7868839751740a0" style="width: 100.0%; height: 100.0%;">Peenemünde/Greifswalder Oie   Coordinates: 54°08′35″N 13°47′38″E</div>')[0];
+                popup_5fc76302bcc048b69110af3d78c0e50f.setContent(html_4e72f435052e4d25a7868839751740a0);
+            
+
+            circle_marker_627276c277a047f9ac1635386d1c8d12.bindPopup(popup_5fc76302bcc048b69110af3d78c0e50f);
+
+            
+        
+    
+            var circle_marker_420b67cd3bd54c938526bb1a9135ea13 = L.circleMarker(
+                [53.84884,8.59154],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_af927a12aa634d329dd00c3549ab8d15 = L.popup({maxWidth: '300'});
+
+            
+                var html_a160775096d748b0a7145d7e7b83cd32 = $('<div id="html_a160775096d748b0a7145d7e7b83cd32" style="width: 100.0%; height: 100.0%;">Cuxhaven   Coordinates: 53°50′56″N 8°35′30″E</div>')[0];
+                popup_af927a12aa634d329dd00c3549ab8d15.setContent(html_a160775096d748b0a7145d7e7b83cd32);
+            
+
+            circle_marker_420b67cd3bd54c938526bb1a9135ea13.bindPopup(popup_af927a12aa634d329dd00c3549ab8d15);
+
+            
+        
+    
+            var circle_marker_2717deb426d54e749891acdcde7b2e6e = L.circleMarker(
+                [52.939002,8.312515],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_e31c0eea8e344d66b8cada18c0d82d6d = L.popup({maxWidth: '300'});
+
+            
+                var html_46c67e2988084fda9f774b534f3d5b98 = $('<div id="html_46c67e2988084fda9f774b534f3d5b98" style="width: 100.0%; height: 100.0%;">Hespenbusch, Großenkneten   Coordinates: 52°56′20″N 8°18′45″E</div>')[0];
+                popup_e31c0eea8e344d66b8cada18c0d82d6d.setContent(html_46c67e2988084fda9f774b534f3d5b98);
+            
+
+            circle_marker_2717deb426d54e749891acdcde7b2e6e.bindPopup(popup_e31c0eea8e344d66b8cada18c0d82d6d);
+
+            
+        
+    
+            var circle_marker_46306c1718d24ebeba63353d0d5f305a = L.circleMarker(
+                [54.44008,12.78431],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_13344fcb1c494d259d9774d34f7b068f = L.popup({maxWidth: '300'});
+
+            
+                var html_008c8b0d0ae247c5919d020d8240aa9a = $('<div id="html_008c8b0d0ae247c5919d020d8240aa9a" style="width: 100.0%; height: 100.0%;">Zingst   Coordinates: 54°26′24″N 12°47′04″E</div>')[0];
+                popup_13344fcb1c494d259d9774d34f7b068f.setContent(html_008c8b0d0ae247c5919d020d8240aa9a);
+            
+
+            circle_marker_46306c1718d24ebeba63353d0d5f305a.bindPopup(popup_13344fcb1c494d259d9774d34f7b068f);
+
+            
+        
+    
+            var circle_marker_f6c9f42b43f244f7b2872ba02fb44de4 = L.circleMarker(
+                [36.7698,21.9316],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_a07652fe6da7459493f994f81cdc8224 = L.popup({maxWidth: '300'});
+
+            
+                var html_0f706fec043541a9af979108c9161320 = $('<div id="html_0f706fec043541a9af979108c9161320" style="width: 100.0%; height: 100.0%;">Koroni   Coordinates: 36°46′11″N 21°55′54″E</div>')[0];
+                popup_a07652fe6da7459493f994f81cdc8224.setContent(html_0f706fec043541a9af979108c9161320);
+            
+
+            circle_marker_f6c9f42b43f244f7b2872ba02fb44de4.bindPopup(popup_a07652fe6da7459493f994f81cdc8224);
+
+            
+        
+    
+            var circle_marker_0e8928869e484d8b8b0c2e4f0176ba3f = L.circleMarker(
+                [63.41891,-19.00463],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_c9df603ab3ac4ecbaac1f08bcfa74130 = L.popup({maxWidth: '300'});
+
+            
+                var html_1ec562bd95754e02833300c819f092dc = $('<div id="html_1ec562bd95754e02833300c819f092dc" style="width: 100.0%; height: 100.0%;">Vik   Coordinates: 63°25′08″N 19°00′17″W</div>')[0];
+                popup_c9df603ab3ac4ecbaac1f08bcfa74130.setContent(html_1ec562bd95754e02833300c819f092dc);
+            
+
+            circle_marker_0e8928869e484d8b8b0c2e4f0176ba3f.bindPopup(popup_c9df603ab3ac4ecbaac1f08bcfa74130);
+
+            
+        
+    
+            var circle_marker_4156cb679592444d8d8ce43f8488ae28 = L.circleMarker(
+                [39.52731,9.63303],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_f25d59cdf60f413389f6ff54809ce8e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb86d8c962054802955ad77c7fa8b97a = $('<div id="html_cb86d8c962054802955ad77c7fa8b97a" style="width: 100.0%; height: 100.0%;">Salto di Quirra   Coordinates: 39°31′38″N 9°37′59″E</div>')[0];
+                popup_f25d59cdf60f413389f6ff54809ce8e9.setContent(html_cb86d8c962054802955ad77c7fa8b97a);
+            
+
+            circle_marker_4156cb679592444d8d8ce43f8488ae28.bindPopup(popup_f25d59cdf60f413389f6ff54809ce8e9);
+
+            
+        
+    
+            var circle_marker_a0876b7166714ef8be7f22e0a9ea17bb = L.circleMarker(
+                [69.2943,16.0207],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_4e36374a38c4406faf4672ce9dabf604 = L.popup({maxWidth: '300'});
+
+            
+                var html_f69928872a144e1b82393116450cb33f = $('<div id="html_f69928872a144e1b82393116450cb33f" style="width: 100.0%; height: 100.0%;">Andøya Rocket Range   Coordinates: 69°17′39″N 16°01′15″E</div>')[0];
+                popup_4e36374a38c4406faf4672ce9dabf604.setContent(html_f69928872a144e1b82393116450cb33f);
+            
+
+            circle_marker_a0876b7166714ef8be7f22e0a9ea17bb.bindPopup(popup_4e36374a38c4406faf4672ce9dabf604);
+
+            
+        
+    
+            var circle_marker_a31ad810bacd4a59a6b806a4ffdb8ce8 = L.circleMarker(
+                [58.2,7.3],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_f217a24907e14fe1b66cf2890e9b7f3c = L.popup({maxWidth: '300'});
+
+            
+                var html_e1210809cc5c46d98b71c6ed25612ff6 = $('<div id="html_e1210809cc5c46d98b71c6ed25612ff6" style="width: 100.0%; height: 100.0%;">Marka   Coordinates: 58°12′00″N 7°18′00″E</div>')[0];
+                popup_f217a24907e14fe1b66cf2890e9b7f3c.setContent(html_e1210809cc5c46d98b71c6ed25612ff6);
+            
+
+            circle_marker_a31ad810bacd4a59a6b806a4ffdb8ce8.bindPopup(popup_f217a24907e14fe1b66cf2890e9b7f3c);
+
+            
+        
+    
+            var circle_marker_ab2fefff0bcf41d9a753160e7767359f = L.circleMarker(
+                [78.2234,15.647],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_e3823ef5e6d643589f0fa72dea9c5fb8 = L.popup({maxWidth: '300'});
+
+            
+                var html_9df91c7ad6224e82b4cf460a56e1f46c = $('<div id="html_9df91c7ad6224e82b4cf460a56e1f46c" style="width: 100.0%; height: 100.0%;">SvalRak   Coordinates: 78°13′24″N 15°38′49″E</div>')[0];
+                popup_e3823ef5e6d643589f0fa72dea9c5fb8.setContent(html_9df91c7ad6224e82b4cf460a56e1f46c);
+            
+
+            circle_marker_ab2fefff0bcf41d9a753160e7767359f.bindPopup(popup_e3823ef5e6d643589f0fa72dea9c5fb8);
+
+            
+        
+    
+            var circle_marker_67c9ed9ed967455ea9b29249b34e4f4e = L.circleMarker(
+                [53.6197,17.98492],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_be608aefe54a42788da3aed8215fc9ba = L.popup({maxWidth: '300'});
+
+            
+                var html_344f963351aa47f28cbc7573a3a18c7d = $('<div id="html_344f963351aa47f28cbc7573a3a18c7d" style="width: 100.0%; height: 100.0%;">Tuchola Forest   Coordinates: 53°37′11″N 17°59′06″E</div>')[0];
+                popup_be608aefe54a42788da3aed8215fc9ba.setContent(html_344f963351aa47f28cbc7573a3a18c7d);
+            
+
+            circle_marker_67c9ed9ed967455ea9b29249b34e4f4e.bindPopup(popup_be608aefe54a42788da3aed8215fc9ba);
+
+            
+        
+    
+            var circle_marker_c4a24f6c7f504acd81bf4702281e00ff = L.circleMarker(
+                [54.76904,17.59355],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_e5cf08f3eaa94ccba20c77d30c89550f = L.popup({maxWidth: '300'});
+
+            
+                var html_0c6191583d7f4989b63fcb42d70ecbfd = $('<div id="html_0c6191583d7f4989b63fcb42d70ecbfd" style="width: 100.0%; height: 100.0%;">Łeba   Coordinates: 54°46′09″N 17°35′37″E</div>')[0];
+                popup_e5cf08f3eaa94ccba20c77d30c89550f.setContent(html_0c6191583d7f4989b63fcb42d70ecbfd);
+            
+
+            circle_marker_c4a24f6c7f504acd81bf4702281e00ff.bindPopup(popup_e5cf08f3eaa94ccba20c77d30c89550f);
+
+            
+        
+    
+            var circle_marker_246f336c0f1c458ab5b747010e7cfa75 = L.circleMarker(
+                [54.754486,17.517919],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_c971f51834614dd49daab6920ef1bdd7 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6044637b66b4dcfb10eda0992d00b93 = $('<div id="html_f6044637b66b4dcfb10eda0992d00b93" style="width: 100.0%; height: 100.0%;">Łeba-Rąbka   Coordinates: 54°45′16″N 17°31′05″E</div>')[0];
+                popup_c971f51834614dd49daab6920ef1bdd7.setContent(html_f6044637b66b4dcfb10eda0992d00b93);
+            
+
+            circle_marker_246f336c0f1c458ab5b747010e7cfa75.bindPopup(popup_c971f51834614dd49daab6920ef1bdd7);
+
+            
+        
+    
+            var circle_marker_05661bca269c4eb6aacd85f8085b9988 = L.circleMarker(
+                [50.1819,21.6162],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_e472c80d1b5940fca9298a725d83d764 = L.popup({maxWidth: '300'});
+
+            
+                var html_bcd9c147f0914abb9b52ddaf2bd3aa0b = $('<div id="html_bcd9c147f0914abb9b52ddaf2bd3aa0b" style="width: 100.0%; height: 100.0%;">Blizna   Coordinates: 50°10′55″N 21°36′58″E</div>')[0];
+                popup_e472c80d1b5940fca9298a725d83d764.setContent(html_bcd9c147f0914abb9b52ddaf2bd3aa0b);
+            
+
+            circle_marker_05661bca269c4eb6aacd85f8085b9988.bindPopup(popup_e472c80d1b5940fca9298a725d83d764);
+
+            
+        
+    
+            var circle_marker_2e9577169bb94afcb79d0a0967bd426d = L.circleMarker(
+                [48.57807,46.2542],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_1a83e84d0ec14d20bffd6e5b20abada2 = L.popup({maxWidth: '300'});
+
+            
+                var html_45e23c80b5f748eda7857bf33124067b = $('<div id="html_45e23c80b5f748eda7857bf33124067b" style="width: 100.0%; height: 100.0%;">Kapustin Yar Cosmodrome, Astrakhan Oblast   Coordinates: 48°34′41″N 46°15′15″E</div>')[0];
+                popup_1a83e84d0ec14d20bffd6e5b20abada2.setContent(html_45e23c80b5f748eda7857bf33124067b);
+            
+
+            circle_marker_2e9577169bb94afcb79d0a0967bd426d.bindPopup(popup_1a83e84d0ec14d20bffd6e5b20abada2);
+
+            
+        
+    
+            var circle_marker_fef1c4770fd446b5b16aee345897f6c8 = L.circleMarker(
+                [64.64928,39.18721],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_49c4daabc5c047f1be13f826705e0098 = L.popup({maxWidth: '300'});
+
+            
+                var html_c108c990d1944a448497200e2046ca07 = $('<div id="html_c108c990d1944a448497200e2046ca07" style="width: 100.0%; height: 100.0%;">Nyonoksa   Coordinates: 64°38′57″N 39°11′14″E</div>')[0];
+                popup_49c4daabc5c047f1be13f826705e0098.setContent(html_c108c990d1944a448497200e2046ca07);
+            
+
+            circle_marker_fef1c4770fd446b5b16aee345897f6c8.bindPopup(popup_49c4daabc5c047f1be13f826705e0098);
+
+            
+        
+    
+            var circle_marker_f07fbfe9c99b4afb81e970396cdd0b60 = L.circleMarker(
+                [62.92556,40.57778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_5fcad1fe7ce44d0fb0bc7a52573cf927 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f5194fe73c64f7aa25a7270656a280c = $('<div id="html_2f5194fe73c64f7aa25a7270656a280c" style="width: 100.0%; height: 100.0%;">Plesetsk Cosmodrome   Coordinates: 62°55′32″N 40°34′40″E</div>')[0];
+                popup_5fcad1fe7ce44d0fb0bc7a52573cf927.setContent(html_2f5194fe73c64f7aa25a7270656a280c);
+            
+
+            circle_marker_f07fbfe9c99b4afb81e970396cdd0b60.bindPopup(popup_5fcad1fe7ce44d0fb0bc7a52573cf927);
+
+            
+        
+    
+            var circle_marker_254d730ecb874516bf03218668b29853 = L.circleMarker(
+                [37.09687,-6.73863],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_8db4da0018a84214aec5e282c21f0834 = L.popup({maxWidth: '300'});
+
+            
+                var html_03bc248e7496464a8327af671410b491 = $('<div id="html_03bc248e7496464a8327af671410b491" style="width: 100.0%; height: 100.0%;">El Arenosillo   Coordinates: 37°05′49″N 6°44′19″W</div>')[0];
+                popup_8db4da0018a84214aec5e282c21f0834.setContent(html_03bc248e7496464a8327af671410b491);
+            
+
+            circle_marker_254d730ecb874516bf03218668b29853.bindPopup(popup_8db4da0018a84214aec5e282c21f0834);
+
+            
+        
+    
+            var circle_marker_8529ddfb98534d9fa781f887675f8450 = L.circleMarker(
+                [66.357202,19.275813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_7bcb9d5ed457442cb8f38ad5d032f0fd = L.popup({maxWidth: '300'});
+
+            
+                var html_ee866617eabf44ec97c7940387a1f429 = $('<div id="html_ee866617eabf44ec97c7940387a1f429" style="width: 100.0%; height: 100.0%;">Nausta   Coordinates: 66°21′26″N 19°16′33″E</div>')[0];
+                popup_7bcb9d5ed457442cb8f38ad5d032f0fd.setContent(html_ee866617eabf44ec97c7940387a1f429);
+            
+
+            circle_marker_8529ddfb98534d9fa781f887675f8450.bindPopup(popup_7bcb9d5ed457442cb8f38ad5d032f0fd);
+
+            
+        
+    
+            var circle_marker_2997af4ce0e741f8afb8e58025d70d02 = L.circleMarker(
+                [66.4147,19.2767],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_3cf903ff5b134542899d64a3585d6bc3 = L.popup({maxWidth: '300'});
+
+            
+                var html_e6e1fc183cae4dda90b561c3758bf9d6 = $('<div id="html_e6e1fc183cae4dda90b561c3758bf9d6" style="width: 100.0%; height: 100.0%;">Kronogård   Coordinates: 66°24′53″N 19°16′36″E</div>')[0];
+                popup_3cf903ff5b134542899d64a3585d6bc3.setContent(html_e6e1fc183cae4dda90b561c3758bf9d6);
+            
+
+            circle_marker_2997af4ce0e741f8afb8e58025d70d02.bindPopup(popup_3cf903ff5b134542899d64a3585d6bc3);
+
+            
+        
+    
+            var circle_marker_17e7970d486941f7b2076852810d64f5 = L.circleMarker(
+                [67.89342,21.10429],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_4e6e951e9a9d4c478b7d1e218258e1b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_7130fb1b7bed4054b2cf9c8103d79a2a = $('<div id="html_7130fb1b7bed4054b2cf9c8103d79a2a" style="width: 100.0%; height: 100.0%;">Esrange, Kiruna   Coordinates: 67°53′36″N 21°06′15″E</div>')[0];
+                popup_4e6e951e9a9d4c478b7d1e218258e1b5.setContent(html_7130fb1b7bed4054b2cf9c8103d79a2a);
+            
+
+            circle_marker_17e7970d486941f7b2076852810d64f5.bindPopup(popup_4e6e951e9a9d4c478b7d1e218258e1b5);
+
+            
+        
+    
+            var circle_marker_02d50af02b2a403a9abf4e2b50613c35 = L.circleMarker(
+                [67.89342,21.10429],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_7298424f58f44f0982d7005a6ee0272b = L.popup({maxWidth: '300'});
+
+            
+                var html_1e3aba54fe2c408daac690a3e600dab1 = $('<div id="html_1e3aba54fe2c408daac690a3e600dab1" style="width: 100.0%; height: 100.0%;">Esrange, Kiruna   Coordinates: 67°53′36″N 21°06′15″E</div>')[0];
+                popup_7298424f58f44f0982d7005a6ee0272b.setContent(html_1e3aba54fe2c408daac690a3e600dab1);
+            
+
+            circle_marker_02d50af02b2a403a9abf4e2b50613c35.bindPopup(popup_7298424f58f44f0982d7005a6ee0272b);
+
+            
+        
+    
+            var circle_marker_cc28600bd8284c6eb5819057c1312abc = L.circleMarker(
+                [50.6639345,-1.5763664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_09e7878e3b9e4e588c652a1d0d08ded5 = L.popup({maxWidth: '300'});
+
+            
+                var html_f8b6acfe88cb4fdc98da73e72c563094 = $('<div id="html_f8b6acfe88cb4fdc98da73e72c563094" style="width: 100.0%; height: 100.0%;">Highdown Test Site, Isle of Wight   Coordinates: 50°39′50″N 1°34′35″W</div>')[0];
+                popup_09e7878e3b9e4e588c652a1d0d08ded5.setContent(html_f8b6acfe88cb4fdc98da73e72c563094);
+            
+
+            circle_marker_cc28600bd8284c6eb5819057c1312abc.bindPopup(popup_09e7878e3b9e4e588c652a1d0d08ded5);
+
+            
+        
+    
+            var circle_marker_516092514fa14ba9be2454d7ce4998ac = L.circleMarker(
+                [57.33,-7.33],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_2fc1d8c5c4b34a6391cd76782817ddf3 = L.popup({maxWidth: '300'});
+
+            
+                var html_d6434300d88645dfaf11966e3fd8218d = $('<div id="html_d6434300d88645dfaf11966e3fd8218d" style="width: 100.0%; height: 100.0%;">South Uist   Coordinates: 57°19′48″N 7°19′48″W</div>')[0];
+                popup_2fc1d8c5c4b34a6391cd76782817ddf3.setContent(html_d6434300d88645dfaf11966e3fd8218d);
+            
+
+            circle_marker_516092514fa14ba9be2454d7ce4998ac.bindPopup(popup_2fc1d8c5c4b34a6391cd76782817ddf3);
+
+            
+        
+    
+            var circle_marker_e59a184b16c446b488265b44e516efa0 = L.circleMarker(
+                [58.7343,-93.8203],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_9cd6b8a82f1c49b3946df33ff89ef9b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_696b2489c9844719b89c61bc08fe7d2f = $('<div id="html_696b2489c9844719b89c61bc08fe7d2f" style="width: 100.0%; height: 100.0%;">Churchill Rocket Research Range, Manitoba   Coordinates: 58°44′03″N 93°49′13″W</div>')[0];
+                popup_9cd6b8a82f1c49b3946df33ff89ef9b1.setContent(html_696b2489c9844719b89c61bc08fe7d2f);
+            
+
+            circle_marker_e59a184b16c446b488265b44e516efa0.bindPopup(popup_9cd6b8a82f1c49b3946df33ff89ef9b1);
+
+            
+        
+    
+            var circle_marker_26796384484748aca5d0396affd82e57 = L.circleMarker(
+                [74.687,-94.8962],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_d2b93921ffeb410887ffd1a12737da48 = L.popup({maxWidth: '300'});
+
+            
+                var html_7068b0a5a44c4ff688e3f3f06e3bb638 = $('<div id="html_7068b0a5a44c4ff688e3f3f06e3bb638" style="width: 100.0%; height: 100.0%;">Resolute Bay, Nunavut   Coordinates: 74°41′13″N 94°53′46″W</div>')[0];
+                popup_d2b93921ffeb410887ffd1a12737da48.setContent(html_7068b0a5a44c4ff688e3f3f06e3bb638);
+            
+
+            circle_marker_26796384484748aca5d0396affd82e57.bindPopup(popup_d2b93921ffeb410887ffd1a12737da48);
+
+            
+        
+    
+            var circle_marker_4e8577321e4a4a7ebcc69b28c6675935 = L.circleMarker(
+                [68.77607,-81.24346],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_00b85730ad9c42e2947f5c66f557b888 = L.popup({maxWidth: '300'});
+
+            
+                var html_af5b77afbdb44a288bd007a97848fca7 = $('<div id="html_af5b77afbdb44a288bd007a97848fca7" style="width: 100.0%; height: 100.0%;">Hall Beach   Coordinates: 68°46′34″N 81°14′36″W</div>')[0];
+                popup_00b85730ad9c42e2947f5c66f557b888.setContent(html_af5b77afbdb44a288bd007a97848fca7);
+            
+
+            circle_marker_4e8577321e4a4a7ebcc69b28c6675935.bindPopup(popup_00b85730ad9c42e2947f5c66f557b888);
+
+            
+        
+    
+            var circle_marker_eb9eef9d470f412e8b833fa4ca060be2 = L.circleMarker(
+                [56.333,-103.233],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_0126b8caa39442cd8af31299db45fafd = L.popup({maxWidth: '300'});
+
+            
+                var html_b9cb32cc5a0647499fb69c793d396ca9 = $('<div id="html_b9cb32cc5a0647499fb69c793d396ca9" style="width: 100.0%; height: 100.0%;">Southend   Coordinates: 56°20′N 103°14′W</div>')[0];
+                popup_0126b8caa39442cd8af31299db45fafd.setContent(html_b9cb32cc5a0647499fb69c793d396ca9);
+            
+
+            circle_marker_eb9eef9d470f412e8b833fa4ca060be2.bindPopup(popup_0126b8caa39442cd8af31299db45fafd);
+
+            
+        
+    
+            var circle_marker_90fb4f586280421d8cd8b307bc4a7462 = L.circleMarker(
+                [76.424,-68.2936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_a6dab96b128942f18c80cee8690f3a41 = L.popup({maxWidth: '300'});
+
+            
+                var html_00852bb8f9b645a7a8071a0b45a76be9 = $('<div id="html_00852bb8f9b645a7a8071a0b45a76be9" style="width: 100.0%; height: 100.0%;">Thule Air Base   Coordinates: 76°25′26″N 68°17′37″W</div>')[0];
+                popup_a6dab96b128942f18c80cee8690f3a41.setContent(html_00852bb8f9b645a7a8071a0b45a76be9);
+            
+
+            circle_marker_90fb4f586280421d8cd8b307bc4a7462.bindPopup(popup_a6dab96b128942f18c80cee8690f3a41);
+
+            
+        
+    
+            var circle_marker_b0945264caa040328ab3beaf1aa32ebf = L.circleMarker(
+                [37.84621,-75.47938],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_001e9a9fce4c4261b61689197655ba52 = L.popup({maxWidth: '300'});
+
+            
+                var html_f43939a79ceb4cf38c2c812366824e97 = $('<div id="html_f43939a79ceb4cf38c2c812366824e97" style="width: 100.0%; height: 100.0%;">Wallops Flight Facility, Delmarva Peninsula, Virginia   Coordinates: 37°50′46″N 75°28′46″W</div>')[0];
+                popup_001e9a9fce4c4261b61689197655ba52.setContent(html_f43939a79ceb4cf38c2c812366824e97);
+            
+
+            circle_marker_b0945264caa040328ab3beaf1aa32ebf.bindPopup(popup_001e9a9fce4c4261b61689197655ba52);
+
+            
+        
+    
+            var circle_marker_d09e8bd408dc4ab8b0c8d42c8722c911 = L.circleMarker(
+                [32.5646,-106.35908],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_7220e890a4e74675ae7802684bbb7341 = L.popup({maxWidth: '300'});
+
+            
+                var html_85fa1c7838274d1d996679eec47e1d23 = $('<div id="html_85fa1c7838274d1d996679eec47e1d23" style="width: 100.0%; height: 100.0%;">White Sands Missile Range   Coordinates: 32°33′53″N 106°21′33″W</div>')[0];
+                popup_7220e890a4e74675ae7802684bbb7341.setContent(html_85fa1c7838274d1d996679eec47e1d23);
+            
+
+            circle_marker_d09e8bd408dc4ab8b0c8d42c8722c911.bindPopup(popup_7220e890a4e74675ae7802684bbb7341);
+
+            
+        
+    
+            var circle_marker_95690847114d48199702c6999cbf25af = L.circleMarker(
+                [36.7715,-116.11374],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_757da03062c64d6a89e40c4c34055fe4 = L.popup({maxWidth: '300'});
+
+            
+                var html_879fbd999f7d4db99e44b0961488e787 = $('<div id="html_879fbd999f7d4db99e44b0961488e787" style="width: 100.0%; height: 100.0%;">Nevada Test and Training Range (formerly Nellis Air Force Range)   Coordinates: 36°46′17″N 116°06′49″W</div>')[0];
+                popup_757da03062c64d6a89e40c4c34055fe4.setContent(html_879fbd999f7d4db99e44b0961488e787);
+            
+
+            circle_marker_95690847114d48199702c6999cbf25af.bindPopup(popup_757da03062c64d6a89e40c4c34055fe4);
+
+            
+        
+    
+            var circle_marker_1581ebd56ad2483aa05e6b48e66bf106 = L.circleMarker(
+                [28.46675,-80.55852],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_49584b82f0104e18b9ac3a8ac1391513 = L.popup({maxWidth: '300'});
+
+            
+                var html_30df2faa389d4025b5e5c8d84e105e79 = $('<div id="html_30df2faa389d4025b5e5c8d84e105e79" style="width: 100.0%; height: 100.0%;">Cape Canaveral Air Force Station, Florida   Coordinates: 28°28′00″N 80°33′31″W</div>')[0];
+                popup_49584b82f0104e18b9ac3a8ac1391513.setContent(html_30df2faa389d4025b5e5c8d84e105e79);
+            
+
+            circle_marker_1581ebd56ad2483aa05e6b48e66bf106.bindPopup(popup_49584b82f0104e18b9ac3a8ac1391513);
+
+            
+        
+    
+            var circle_marker_c5a737f3e91a4974aca7481377284db4 = L.circleMarker(
+                [34.77204,-120.60124],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_47a84bb6e9094ac4a76ce43a2c9f8048 = L.popup({maxWidth: '300'});
+
+            
+                var html_420af0586aad413ba78125e2690b7c65 = $('<div id="html_420af0586aad413ba78125e2690b7c65" style="width: 100.0%; height: 100.0%;">Vandenberg Air Force Base, California   Coordinates: 34°46′19″N 120°36′04″W</div>')[0];
+                popup_47a84bb6e9094ac4a76ce43a2c9f8048.setContent(html_420af0586aad413ba78125e2690b7c65);
+            
+
+            circle_marker_c5a737f3e91a4974aca7481377284db4.bindPopup(popup_47a84bb6e9094ac4a76ce43a2c9f8048);
+
+            
+        
+    
+            var circle_marker_e1760257f8b744b5b6e1bacd7b217f83 = L.circleMarker(
+                [28.6082,-80.604],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_25d26ee54c4b4b70a69a684f662cfbf0 = L.popup({maxWidth: '300'});
+
+            
+                var html_c3bca2041e754c8c87b0aafc0bc0f66b = $('<div id="html_c3bca2041e754c8c87b0aafc0bc0f66b" style="width: 100.0%; height: 100.0%;">Kennedy Space Center, Florida   Coordinates: 28°36′30″N 80°36′14″W</div>')[0];
+                popup_25d26ee54c4b4b70a69a684f662cfbf0.setContent(html_c3bca2041e754c8c87b0aafc0bc0f66b);
+            
+
+            circle_marker_e1760257f8b744b5b6e1bacd7b217f83.bindPopup(popup_25d26ee54c4b4b70a69a684f662cfbf0);
+
+            
+        
+    
+            var circle_marker_43b663a5a7624bb4b8a26b8e29bc31e1 = L.circleMarker(
+                [22.02278,-159.785],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_16474e7b14284448aa024f98c4ab6bba = L.popup({maxWidth: '300'});
+
+            
+                var html_57f0809dfcf54c37b73a78c6c8c3c192 = $('<div id="html_57f0809dfcf54c37b73a78c6c8c3c192" style="width: 100.0%; height: 100.0%;">Pacific Missile Range Facility, Hawaii   Coordinates: 22°01′22″N 159°47′06″W</div>')[0];
+                popup_16474e7b14284448aa024f98c4ab6bba.setContent(html_57f0809dfcf54c37b73a78c6c8c3c192);
+            
+
+            circle_marker_43b663a5a7624bb4b8a26b8e29bc31e1.bindPopup(popup_16474e7b14284448aa024f98c4ab6bba);
+
+            
+        
+    
+            var circle_marker_39ea6b58435f491fb56b6a7af522520e = L.circleMarker(
+                [47.4298,-87.71443],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_87c585390e664859afdbbd144d7bfbc2 = L.popup({maxWidth: '300'});
+
+            
+                var html_b0f12ca988c54193b03dff03b290c962 = $('<div id="html_b0f12ca988c54193b03dff03b290c962" style="width: 100.0%; height: 100.0%;">Keweenaw, Michigan   Coordinates: 47°25′47″N 87°42′52″W</div>')[0];
+                popup_87c585390e664859afdbbd144d7bfbc2.setContent(html_b0f12ca988c54193b03dff03b290c962);
+            
+
+            circle_marker_39ea6b58435f491fb56b6a7af522520e.bindPopup(popup_87c585390e664859afdbbd144d7bfbc2);
+
+            
+        
+    
+            var circle_marker_4a681dd4ec7e4f9481ff215780b9d208 = L.circleMarker(
+                [57.43533,-152.33931],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_f1a967fb381c495482af7f55d48c45af = L.popup({maxWidth: '300'});
+
+            
+                var html_9dbefbb012ab4e4889664c963f726fc5 = $('<div id="html_9dbefbb012ab4e4889664c963f726fc5" style="width: 100.0%; height: 100.0%;">Kodiak Launch Complex, Alaska   Coordinates: 57°26′07″N 152°20′22″W</div>')[0];
+                popup_f1a967fb381c495482af7f55d48c45af.setContent(html_9dbefbb012ab4e4889664c963f726fc5);
+            
+
+            circle_marker_4a681dd4ec7e4f9481ff215780b9d208.bindPopup(popup_f1a967fb381c495482af7f55d48c45af);
+
+            
+        
+    
+            var circle_marker_11e88facb0e1412d908ab21b00a2297c = L.circleMarker(
+                [35.0591,-118.1488],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_b15bf1924c7145179d6ca44900af5f61 = L.popup({maxWidth: '300'});
+
+            
+                var html_cae2106bf85544bab7db6000723f2799 = $('<div id="html_cae2106bf85544bab7db6000723f2799" style="width: 100.0%; height: 100.0%;">Mojave Air and Space Port, California   Coordinates: 35°03′33″N 118°08′56″W</div>')[0];
+                popup_b15bf1924c7145179d6ca44900af5f61.setContent(html_cae2106bf85544bab7db6000723f2799);
+            
+
+            circle_marker_11e88facb0e1412d908ab21b00a2297c.bindPopup(popup_b15bf1924c7145179d6ca44900af5f61);
+
+            
+        
+    
+            var circle_marker_24ecebaf90b143d2a2f5646a234096fc = L.circleMarker(
+                [32.88943,-106.99945],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_6290d1d559c14f7dac02599f3e15438f = L.popup({maxWidth: '300'});
+
+            
+                var html_2b51c0c7aae84c1897f21811c553ddcb = $('<div id="html_2b51c0c7aae84c1897f21811c553ddcb" style="width: 100.0%; height: 100.0%;">Spaceport America (formerly Southwest Regional Spaceport), Upham, New Mexico   Coordinates: 32°53′22″N 106°59′58″W</div>')[0];
+                popup_6290d1d559c14f7dac02599f3e15438f.setContent(html_2b51c0c7aae84c1897f21811c553ddcb);
+            
+
+            circle_marker_24ecebaf90b143d2a2f5646a234096fc.bindPopup(popup_6290d1d559c14f7dac02599f3e15438f);
+
+            
+        
+    
+            var circle_marker_01c2a3711a7849c096ef3dc2d0641bca = L.circleMarker(
+                [37.833378,-75.483284],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_d87bf8f0987b41ff826f2787af949233 = L.popup({maxWidth: '300'});
+
+            
+                var html_91bae5a998f74f3b8cacb93c90a95328 = $('<div id="html_91bae5a998f74f3b8cacb93c90a95328" style="width: 100.0%; height: 100.0%;">Mid-Atlantic Regional Spaceport (MARS), Delmarva Peninsula, Virginia   Coordinates: 37°50′00″N 75°29′00″W</div>')[0];
+                popup_d87bf8f0987b41ff826f2787af949233.setContent(html_91bae5a998f74f3b8cacb93c90a95328);
+            
+
+            circle_marker_01c2a3711a7849c096ef3dc2d0641bca.bindPopup(popup_d87bf8f0987b41ff826f2787af949233);
+
+            
+        
+    
+            var circle_marker_55c05129494542279a2f3f68a716aa27 = L.circleMarker(
+                [-38.9628,-61.715],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_0056158c2d8f46a5a5560eee5790143b = L.popup({maxWidth: '300'});
+
+            
+                var html_44875bb79cf943c49eb09fdb7f0c4661 = $('<div id="html_44875bb79cf943c49eb09fdb7f0c4661" style="width: 100.0%; height: 100.0%;">Puerto Belgrano   Coordinates: 38°57′46″S 61°42′54″W</div>')[0];
+                popup_0056158c2d8f46a5a5560eee5790143b.setContent(html_44875bb79cf943c49eb09fdb7f0c4661);
+            
+
+            circle_marker_55c05129494542279a2f3f68a716aa27.bindPopup(popup_0056158c2d8f46a5a5560eee5790143b);
+
+            
+        
+    
+            var circle_marker_64051aea1a244ed2b4477e7a1fb5614d = L.circleMarker(
+                [-35.523889,-57.183889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_7060413dbcd84c7d94ef8aea8c0f324b = L.popup({maxWidth: '300'});
+
+            
+                var html_911f509babff4186a4e8bf89e09c0afd = $('<div id="html_911f509babff4186a4e8bf89e09c0afd" style="width: 100.0%; height: 100.0%;">Punta Indio   Coordinates: 35°31′26″S 57°11′02″W</div>')[0];
+                popup_7060413dbcd84c7d94ef8aea8c0f324b.setContent(html_911f509babff4186a4e8bf89e09c0afd);
+            
+
+            circle_marker_64051aea1a244ed2b4477e7a1fb5614d.bindPopup(popup_7060413dbcd84c7d94ef8aea8c0f324b);
+
+            
+        
+    
+            var circle_marker_34b83265f36649fa8ebc7fe0f0ae4df8 = L.circleMarker(
+                [-30.12737,-66.34082],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_f8b803e332074f27943f8a6ffb65eb0f = L.popup({maxWidth: '300'});
+
+            
+                var html_34910c38ecb34079a21b8b001904c4ba = $('<div id="html_34910c38ecb34079a21b8b001904c4ba" style="width: 100.0%; height: 100.0%;">CELPA   Coordinates: 30°07′39″S 66°20′27″W</div>')[0];
+                popup_f8b803e332074f27943f8a6ffb65eb0f.setContent(html_34910c38ecb34079a21b8b001904c4ba);
+            
+
+            circle_marker_34b83265f36649fa8ebc7fe0f0ae4df8.bindPopup(popup_f8b803e332074f27943f8a6ffb65eb0f);
+
+            
+        
+    
+            var circle_marker_59a71e842c104d00bca85e4be006eef2 = L.circleMarker(
+                [-30.6333,-65.3833],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_65373ae7de2c49648dffdf0ba58a0fb7 = L.popup({maxWidth: '300'});
+
+            
+                var html_1af5264a8d5544e2b7085b58fa6fc8a7 = $('<div id="html_1af5264a8d5544e2b7085b58fa6fc8a7" style="width: 100.0%; height: 100.0%;">Serrezuela   Coordinates: 30°38′00″S 65°23′00″W</div>')[0];
+                popup_65373ae7de2c49648dffdf0ba58a0fb7.setContent(html_1af5264a8d5544e2b7085b58fa6fc8a7);
+            
+
+            circle_marker_59a71e842c104d00bca85e4be006eef2.bindPopup(popup_65373ae7de2c49648dffdf0ba58a0fb7);
+
+            
+        
+    
+            var circle_marker_bd4d4bd7461c4106b8c37934b57892ca = L.circleMarker(
+                [-27.09531,-58.75352],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_f3c209f9b716452989239fd1f3d4f7b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_471abe5e2f734004b09d45ec472140c5 = $('<div id="html_471abe5e2f734004b09d45ec472140c5" style="width: 100.0%; height: 100.0%;">Las Palmas   Coordinates: 27°05′43″S 58°45′13″W</div>')[0];
+                popup_f3c209f9b716452989239fd1f3d4f7b1.setContent(html_471abe5e2f734004b09d45ec472140c5);
+            
+
+            circle_marker_bd4d4bd7461c4106b8c37934b57892ca.bindPopup(popup_f3c209f9b716452989239fd1f3d4f7b1);
+
+            
+        
+    
+            var circle_marker_1f9ac7f2bf234196951dbb7de711c596 = L.circleMarker(
+                [-22.76158,-63.82381],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_e437be3100b249adb79db245d15ab37a = L.popup({maxWidth: '300'});
+
+            
+                var html_8e698591a9a543feb640af073c07b860 = $('<div id="html_8e698591a9a543feb640af073c07b860" style="width: 100.0%; height: 100.0%;">Tartagal   Coordinates: 22°45′42″S 63°49′26″W</div>')[0];
+                popup_e437be3100b249adb79db245d15ab37a.setContent(html_8e698591a9a543feb640af073c07b860);
+            
+
+            circle_marker_1f9ac7f2bf234196951dbb7de711c596.bindPopup(popup_e437be3100b249adb79db245d15ab37a);
+
+            
+        
+    
+            var circle_marker_6ef673b27f7647db8471235a8df5a407 = L.circleMarker(
+                [-37.72427,-57.40512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_27462ead6a984aadb97d5c1d5d92c0b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_5e39e14bfcfe4804b4cfcc140bc0e669 = $('<div id="html_5e39e14bfcfe4804b4cfcc140bc0e669" style="width: 100.0%; height: 100.0%;">Mar Chiquita   Coordinates: 37°43′27″S 57°24′18″W</div>')[0];
+                popup_27462ead6a984aadb97d5c1d5d92c0b0.setContent(html_5e39e14bfcfe4804b4cfcc140bc0e669);
+            
+
+            circle_marker_6ef673b27f7647db8471235a8df5a407.bindPopup(popup_27462ead6a984aadb97d5c1d5d92c0b0);
+
+            
+        
+    
+            var circle_marker_f5faebb3e6cb4844a5340ca5cd488e3e = L.circleMarker(
+                [-33.7246,-65.3773],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_e74d775d2e344c14a9f1296b0d6616a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_02889de1453049f888af2006b316e458 = $('<div id="html_02889de1453049f888af2006b316e458" style="width: 100.0%; height: 100.0%;">Villa Reynolds   Coordinates: 33°43′29″S 65°22′38″W</div>')[0];
+                popup_e74d775d2e344c14a9f1296b0d6616a2.setContent(html_02889de1453049f888af2006b316e458);
+            
+
+            circle_marker_f5faebb3e6cb4844a5340ca5cd488e3e.bindPopup(popup_e74d775d2e344c14a9f1296b0d6616a2);
+
+            
+        
+    
+            var circle_marker_15dee0b2669447c1ab563882bd35992a = L.circleMarker(
+                [-31.5833,-64.8333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_9831f23b06424b26871412dc720c1dd4 = L.popup({maxWidth: '300'});
+
+            
+                var html_b67cd7dbe5544317a40c5cad9f9501d5 = $('<div id="html_b67cd7dbe5544317a40c5cad9f9501d5" style="width: 100.0%; height: 100.0%;">Pampa de Achala   Coordinates: 31°35′00″S 64°50′00″W</div>')[0];
+                popup_9831f23b06424b26871412dc720c1dd4.setContent(html_b67cd7dbe5544317a40c5cad9f9501d5);
+            
+
+            circle_marker_15dee0b2669447c1ab563882bd35992a.bindPopup(popup_9831f23b06424b26871412dc720c1dd4);
+
+            
+        
+    
+            var circle_marker_ac32784a1eca49439fadf635430c44fe = L.circleMarker(
+                [-5.866,-35.383],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_fe95df532ed54648ba2fe05ab81a5bb8 = L.popup({maxWidth: '300'});
+
+            
+                var html_4cacefb1645e44a0a99a9070602e1dfd = $('<div id="html_4cacefb1645e44a0a99a9070602e1dfd" style="width: 100.0%; height: 100.0%;">Natal/Barreira   Coordinates: 5°51′58″S 35°22′59″W</div>')[0];
+                popup_fe95df532ed54648ba2fe05ab81a5bb8.setContent(html_4cacefb1645e44a0a99a9070602e1dfd);
+            
+
+            circle_marker_ac32784a1eca49439fadf635430c44fe.bindPopup(popup_fe95df532ed54648ba2fe05ab81a5bb8);
+
+            
+        
+    
+            var circle_marker_7df1f15ae883486b970ead152581e9db = L.circleMarker(
+                [-32.08338,-52.16725],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_5c24d3f00dd446d29e73c40d6e9619f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_35b459da9cb74b3fb0ea7af431ac4532 = $('<div id="html_35b459da9cb74b3fb0ea7af431ac4532" style="width: 100.0%; height: 100.0%;">Praia do Cassino   Coordinates: 32°05′00″S 52°10′02″W</div>')[0];
+                popup_5c24d3f00dd446d29e73c40d6e9619f4.setContent(html_35b459da9cb74b3fb0ea7af431ac4532);
+            
+
+            circle_marker_7df1f15ae883486b970ead152581e9db.bindPopup(popup_5c24d3f00dd446d29e73c40d6e9619f4);
+
+            
+        
+    
+            var circle_marker_059ec10c29204d24aa6d034d0e48f093 = L.circleMarker(
+                [-2.316,-44.3676],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_b83e2752a93f4706b4a812d271ab320b = L.popup({maxWidth: '300'});
+
+            
+                var html_aa7655cdf30b435983798acd949f2af0 = $('<div id="html_aa7655cdf30b435983798acd949f2af0" style="width: 100.0%; height: 100.0%;">Alcântara Launch Center, Maranhão   Coordinates: 2°18′58″S 44°22′03″W</div>')[0];
+                popup_b83e2752a93f4706b4a812d271ab320b.setContent(html_aa7655cdf30b435983798acd949f2af0);
+            
+
+            circle_marker_059ec10c29204d24aa6d034d0e48f093.bindPopup(popup_b83e2752a93f4706b4a812d271ab320b);
+
+            
+        
+    
+            var circle_marker_29a56991bae540b2b40e619d97d02152 = L.circleMarker(
+                [5.23739,-52.7695],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_513d729b4df4447191bdc970fb6645ec = L.popup({maxWidth: '300'});
+
+            
+                var html_ac720449b9ca41dea96bba31971e60b8 = $('<div id="html_ac720449b9ca41dea96bba31971e60b8" style="width: 100.0%; height: 100.0%;">Guiana Space Centre, Kourou   Coordinates: 5°14′15″N 52°46′10″W</div>')[0];
+                popup_513d729b4df4447191bdc970fb6645ec.setContent(html_ac720449b9ca41dea96bba31971e60b8);
+            
+
+            circle_marker_29a56991bae540b2b40e619d97d02152.bindPopup(popup_513d729b4df4447191bdc970fb6645ec);
+
+            
+        
+    
+            var circle_marker_19a98881fc3c476396137975198a1344 = L.circleMarker(
+                [-12.50477,-76.79849],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_b9b2faa3c7544180955b687288433d05 = L.popup({maxWidth: '300'});
+
+            
+                var html_ae0b04f48a284b0e997b355df91894fb = $('<div id="html_ae0b04f48a284b0e997b355df91894fb" style="width: 100.0%; height: 100.0%;">Chilca Launch Range   Coordinates: 12°30′17″S 76°47′55″W</div>')[0];
+                popup_b9b2faa3c7544180955b687288433d05.setContent(html_ae0b04f48a284b0e997b355df91894fb);
+            
+
+            circle_marker_19a98881fc3c476396137975198a1344.bindPopup(popup_b9b2faa3c7544180955b687288433d05);
+
+            
+        
+    
+            var circle_marker_539b15b4fadc40c6a550ef16adab9d04 = L.circleMarker(
+                [-12.5,-76.8],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_af0a93f3c57d49cc9af7d66fac19349e = L.popup({maxWidth: '300'});
+
+            
+                var html_0da5e2970ca94238bffc8a2d5631764d = $('<div id="html_0da5e2970ca94238bffc8a2d5631764d" style="width: 100.0%; height: 100.0%;">Chilca PLOB, Punta Lobos Range   Coordinates: 12°30′00″S 76°48′00″W</div>')[0];
+                popup_af0a93f3c57d49cc9af7d66fac19349e.setContent(html_0da5e2970ca94238bffc8a2d5631764d);
+            
+
+            circle_marker_539b15b4fadc40c6a550ef16adab9d04.bindPopup(popup_af0a93f3c57d49cc9af7d66fac19349e);
+
+            
+        
+    
+            var circle_marker_3524447d7f8b40989cb5c5bb2d9f8de9 = L.circleMarker(
+                [5.87241,-56.28908],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_423a81be1f074078b5a61c40e7d2bd77 = L.popup({maxWidth: '300'});
+
+            
+                var html_473fe3773ad1424a9dd1dbba40dd1290 = $('<div id="html_473fe3773ad1424a9dd1dbba40dd1290" style="width: 100.0%; height: 100.0%;">Coronie   Coordinates: 5°52′21″N 56°17′21″W</div>')[0];
+                popup_423a81be1f074078b5a61c40e7d2bd77.setContent(html_473fe3773ad1424a9dd1dbba40dd1290);
+            
+
+            circle_marker_3524447d7f8b40989cb5c5bb2d9f8de9.bindPopup(popup_423a81be1f074078b5a61c40e7d2bd77);
+
+            
+        
+    
+            var circle_marker_df7a8fdbe3104b3dae605be423d49ce0 = L.circleMarker(
+                [-30.95875,136.50366],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_f64921ef64d1477fbf56f2231bc7b2de = L.popup({maxWidth: '300'});
+
+            
+                var html_5d16422c1dac4d799b8b6d35d40e79c4 = $('<div id="html_5d16422c1dac4d799b8b6d35d40e79c4" style="width: 100.0%; height: 100.0%;">Woomera Test Range   Coordinates: 30°57′31″S 136°30′13″E</div>')[0];
+                popup_f64921ef64d1477fbf56f2231bc7b2de.setContent(html_5d16422c1dac4d799b8b6d35d40e79c4);
+            
+
+            circle_marker_df7a8fdbe3104b3dae605be423d49ce0.bindPopup(popup_f64921ef64d1477fbf56f2231bc7b2de);
+
+            
+        
+    
+            var circle_marker_aaf4c5c36d1b412991bb6fed34ff2645 = L.circleMarker(
+                [-24.48564,113.40866],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_9a5cf9249c5e409999941fad2291dcde = L.popup({maxWidth: '300'});
+
+            
+                var html_ad2d7504721743eab708287e498678b1 = $('<div id="html_ad2d7504721743eab708287e498678b1" style="width: 100.0%; height: 100.0%;">Carnarvon   Coordinates: 24°29′08″S 113°24′31″E</div>')[0];
+                popup_9a5cf9249c5e409999941fad2291dcde.setContent(html_ad2d7504721743eab708287e498678b1);
+            
+
+            circle_marker_aaf4c5c36d1b412991bb6fed34ff2645.bindPopup(popup_9a5cf9249c5e409999941fad2291dcde);
+
+            
+        
+    
+            var circle_marker_acc86548670746e68798a47c78cfb6cb = L.circleMarker(
+                [-30.98309,115.31774],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_3e4a2fd503bb4ab29817659950e01472 = L.popup({maxWidth: '300'});
+
+            
+                var html_e21d1df07e9540abae1782f8a26774ff = $('<div id="html_e21d1df07e9540abae1782f8a26774ff" style="width: 100.0%; height: 100.0%;">Lancelin   Coordinates: 30°58′59″S 115°19′04″E</div>')[0];
+                popup_3e4a2fd503bb4ab29817659950e01472.setContent(html_e21d1df07e9540abae1782f8a26774ff);
+            
+
+            circle_marker_acc86548670746e68798a47c78cfb6cb.bindPopup(popup_3e4a2fd503bb4ab29817659950e01472);
+
+            
+        
+    
+            var circle_marker_4f8aa5d95e8b472c894839a8d021f6e0 = L.circleMarker(
+                [9.048167,167.743083],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_e0559de0703a44f2bc580e2cebc2b914 = L.popup({maxWidth: '300'});
+
+            
+                var html_80e6e42ad8c642308c9a2d9534e01328 = $('<div id="html_80e6e42ad8c642308c9a2d9534e01328" style="width: 100.0%; height: 100.0%;">Reagan Test Site, Omelek Island, Kwajalein Atoll   Coordinates: 9°02′53″N 167°44′35″E</div>')[0];
+                popup_e0559de0703a44f2bc580e2cebc2b914.setContent(html_80e6e42ad8c642308c9a2d9534e01328);
+            
+
+            circle_marker_4f8aa5d95e8b472c894839a8d021f6e0.bindPopup(popup_e0559de0703a44f2bc580e2cebc2b914);
+
+            
+        
+    
+            var circle_marker_3add434997044364a0aae450bb8581fe = L.circleMarker(
+                [-43.817,172.683],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_be5d9edf654a454490970efe270e2a86 = L.popup({maxWidth: '300'});
+
+            
+                var html_ff05b414445d41c19f013af14a6477bd = $('<div id="html_ff05b414445d41c19f013af14a6477bd" style="width: 100.0%; height: 100.0%;">Birdling&#39;s Flat   Coordinates: 43°49′01″S 172°40′59″E</div>')[0];
+                popup_be5d9edf654a454490970efe270e2a86.setContent(html_ff05b414445d41c19f013af14a6477bd);
+            
+
+            circle_marker_3add434997044364a0aae450bb8581fe.bindPopup(popup_be5d9edf654a454490970efe270e2a86);
+
+            
+        
+    
+            var circle_marker_d9c54abdb6ac4425959449c7aab9b9f7 = L.circleMarker(
+                [-39.26044,177.86431],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_70346b5493e24623a6b6f16bd41f6cbb);
+            
+    
+            var popup_d237f82834ab4871a99de19cbb8a8334 = L.popup({maxWidth: '300'});
+
+            
+                var html_e4507e101f634778ab36e814e43164bb = $('<div id="html_e4507e101f634778ab36e814e43164bb" style="width: 100.0%; height: 100.0%;">Mahia   Coordinates: 39°15′38″S 177°51′52″E</div>')[0];
+                popup_d237f82834ab4871a99de19cbb8a8334.setContent(html_e4507e101f634778ab36e814e43164bb);
+            
+
+            circle_marker_d9c54abdb6ac4425959449c7aab9b9f7.bindPopup(popup_d237f82834ab4871a99de19cbb8a8334);
+
+            
+        
+</script>
